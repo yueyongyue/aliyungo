@@ -69,6 +69,7 @@ type DiskDeviceMapping struct {
 	Format    string
 	OSSBucket string
 	OSSObject string
+	Type string
 }
 
 //
