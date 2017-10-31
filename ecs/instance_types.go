@@ -13,6 +13,9 @@ type InstanceTypeItemType struct {
 	CpuCoreCount       int
 	MemorySize         float64
 	InstanceTypeFamily string
+	GPUSpec            string
+	GPUAmount          int
+	LocalStorageCategory string
 }
 
 type DescribeInstanceTypesResponse struct {
