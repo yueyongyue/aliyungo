@@ -1,6 +1,6 @@
 package slb
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/yueyongyue/aliyungo/common"
 
 //Modify with your Access Key Id and Access Key Secret
 

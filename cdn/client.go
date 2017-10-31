@@ -1,7 +1,7 @@
 package cdn
 
 import (
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 	"os"
 )
 

@@ -3,7 +3,7 @@ package slb
 import (
 	"testing"
 	"encoding/json"
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 var client = NewClient("your accessId", "your accessId secret")

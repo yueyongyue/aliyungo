@@ -3,8 +3,8 @@ package cs
 import (
 	"testing"
 
-	"github.com/denverdino/aliyungo/common"
-	"github.com/denverdino/aliyungo/ecs"
+	"github.com/yueyongyue/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/ecs"
 )
 
 func TestListClusters(t *testing.T) {

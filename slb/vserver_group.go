@@ -1,7 +1,7 @@
 package slb
 
 import (
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 type VBackendServerType struct {

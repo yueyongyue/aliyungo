@@ -3,7 +3,7 @@ package dns
 import (
 	"log"
 
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 type ChangeDomainGroupArgs struct {

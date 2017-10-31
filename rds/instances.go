@@ -3,7 +3,7 @@ package rds
 import (
 	"time"
 
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 type DBInstanceIPArray struct {

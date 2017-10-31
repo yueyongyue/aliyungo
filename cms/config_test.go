@@ -1,6 +1,6 @@
 package cms
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/yueyongyue/aliyungo/common"
 
 const (
 	TestAccessKeyId     = "YOUR_ACCESS_KEY_ID"

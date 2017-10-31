@@ -1,7 +1,7 @@
 package ecs
 
 import (
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 type BandwidthPackageType struct {

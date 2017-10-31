@@ -3,7 +3,7 @@ package push
 import (
 	"net/http"
 
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 const (

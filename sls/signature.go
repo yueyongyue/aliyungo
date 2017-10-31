@@ -3,7 +3,7 @@ package sls
 import (
 	"crypto/md5"
 	"encoding/hex"
-	"github.com/denverdino/aliyungo/util"
+	"github.com/yueyongyue/aliyungo/util"
 	"net/url"
 	"sort"
 	"strings"

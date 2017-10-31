@@ -1,7 +1,7 @@
 package mns
 
 import (
-	"github.com/denverdino/aliyungo/util"
+	"github.com/yueyongyue/aliyungo/util"
 	"net/url"
 	"sort"
 	"strings"

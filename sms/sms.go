@@ -3,7 +3,7 @@ package sms
 import (
 	"net/http"
 
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 )
 
 //邮件推送产品短信功能

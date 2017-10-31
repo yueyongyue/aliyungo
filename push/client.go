@@ -1,6 +1,6 @@
 package push
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/yueyongyue/aliyungo/common"
 
 const (
 	PushEndPoint = "https://cloudpush.aliyuncs.com/"

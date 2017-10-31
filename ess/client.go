@@ -1,7 +1,7 @@
 package ess
 
 import (
-	"github.com/denverdino/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/common"
 
 	"os"
 )

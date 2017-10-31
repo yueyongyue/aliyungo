@@ -10,7 +10,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/denverdino/aliyungo/util"
+	"github.com/yueyongyue/aliyungo/util"
 )
 
 // RemovalPolicy.N add index to array item

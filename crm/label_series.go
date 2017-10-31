@@ -1,6 +1,6 @@
 package crm
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/yueyongyue/aliyungo/common"
 
 const (
 	FINANCE_SERIES = "aliyun.act_game"

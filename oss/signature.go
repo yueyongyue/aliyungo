@@ -1,7 +1,7 @@
 package oss
 
 import (
-	"github.com/denverdino/aliyungo/util"
+	"github.com/yueyongyue/aliyungo/util"
 	//"log"
 	"net/http"
 	"net/url"

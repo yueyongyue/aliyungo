@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/denverdino/aliyungo/common"
-	"github.com/denverdino/aliyungo/ecs"
-	"github.com/denverdino/aliyungo/util"
+	"github.com/yueyongyue/aliyungo/common"
+	"github.com/yueyongyue/aliyungo/ecs"
+	"github.com/yueyongyue/aliyungo/util"
 	"math"
 	"time"
 )

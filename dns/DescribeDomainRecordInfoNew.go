@@ -1,6 +1,6 @@
 package dns
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/yueyongyue/aliyungo/common"
 
 // endpoint change to 'http://alidns.aliyuncs.com' then record ttl and priority change to string
 type RecordTypeNew struct {

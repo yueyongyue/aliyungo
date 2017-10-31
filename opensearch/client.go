@@ -1,6 +1,6 @@
 package opensearch
 
-import "github.com/denverdino/aliyungo/common"
+import "github.com/yueyongyue/aliyungo/common"
 
 const (
 	Internet = ""
