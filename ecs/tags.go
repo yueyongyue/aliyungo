@@ -98,6 +98,12 @@ type TagItemType struct {
 	TagValue string
 }
 
+type NetworkInterfaceItemType struct {
+	MacAddress string
+	PrimaryIpAddress string
+	NetworkInterfaceId string
+}
+
 type DescribeTagsArgs struct {
 	RegionId     common.Region
 	ResourceType TagResourceType //image, instance, snapshot or disk

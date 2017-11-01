@@ -264,6 +264,21 @@ type InstanceAttributesType struct {
 	}
 	SpotStrategy SpotStrategyType
 	KeyPairName  string
+	NetworkInterfaces struct {
+		NetworkInterface []NetworkInterfaceItemType
+	}
+	VlanId string
+	DeviceAvailable bool
+	Recyclable bool
+	SaleCycle string
+	//SpotPriceLimit string
+	AutoReleaseTime string
+	ResourceGroupId string
+	OSType string
+	OSName string
+	GPUSpec string
+	GPUAmount int
+
 }
 
 type DescribeInstanceAttributeResponse struct {
