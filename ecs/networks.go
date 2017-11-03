@@ -132,6 +132,8 @@ type EipAddressSetType struct {
 	InternetChargeType common.InternetChargeType
 	OperationLocks     OperationLocksType
 	AllocationTime     util.ISO6801Time
+	ChargeType         string
+	ExpiredTime        util.ISO6801Time
 }
 
 type DescribeEipAddressesResponse struct {
