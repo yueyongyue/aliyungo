@@ -41,6 +41,7 @@ type AvailableResourcesType struct {
 
 type DescribeZonesArgs struct {
 	RegionId common.Region
+	InstanceChargeType string
 }
 
 //
@@ -83,8 +84,8 @@ type DescribeZonesResponse struct {
 }
 
 // DescribeZones describes zones
-func (client *Client) DescribeZones(regionId common.Region) (zones []ZoneType, err error) {
-	response, err := client.DescribeZonesWithRaw(regionId)
+func (client *Client) DescribeZones(regionId common.Region, instanceChargeType string) (zones []ZoneType, err error) {
+	response, err := client.DescribeZonesWithRaw(regionId, instanceChargeType)
 	if err == nil {
 		return response.Zones.Zone, nil
 	}
@@ -92,9 +93,10 @@ func (client *Client) DescribeZones(regionId common.Region) (zones []ZoneType, e
 	return []ZoneType{}, err
 }
 
-func (client *Client) DescribeZonesWithRaw(regionId common.Region) (response *DescribeZonesResponse, err error) {
+func (client *Client) DescribeZonesWithRaw(regionId common.Region, instanceChargeType string) (response *DescribeZonesResponse, err error) {
 	args := DescribeZonesArgs{
 		RegionId: regionId,
+		InstanceChargeType: instanceChargeType,
 	}
 	response = &DescribeZonesResponse{}
 
