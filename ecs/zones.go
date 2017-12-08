@@ -35,8 +35,8 @@ type AvailableResourcesType struct {
 	InstanceGenerations  map[SupportedResourceType][]string
 	InstanceTypeFamilies map[SupportedResourceType][]string
 	InstanceTypes        map[SupportedResourceType][]string
-	SystemDiskCategories map[SupportedResourceType][]DiskCategory
-	DataDiskCategories   map[SupportedResourceType][]DiskCategory
+	SystemDiskCategories map[SupportedResourceType][]string
+	DataDiskCategories   map[SupportedResourceType][]string
 }
 
 type DescribeZonesArgs struct {
@@ -46,13 +46,17 @@ type DescribeZonesArgs struct {
 //
 // You can read doc at http://docs.aliyun.com/#/pub/ecs/open-api/datatype&availableresourcecreationtype
 type AvailableResourceCreationType struct {
-	ResourceTypes []ResourceType //enum for Instance, Disk, VSwitch
+	ResourceTypes []string //enum for Instance, Disk, VSwitch
 }
 
 //
 // You can read doc at http://docs.aliyun.com/#/pub/ecs/open-api/datatype&availablediskcategoriestype
 type AvailableDiskCategoriesType struct {
-	DiskCategories []DiskCategory //enum for cloud, ephemeral, ephemeral_ssd
+	DiskCategories []string//enum for cloud, ephemeral, ephemeral_ssd
+}
+
+type AvailableVolumeCategoriesType struct {
+	VolumeCategories []string//enum for cloud, ephemeral, ephemeral_ssd
 }
 
 type AvailableInstanceTypesType struct {
@@ -68,6 +72,7 @@ type ZoneType struct {
 	AvailableInstanceTypes    AvailableInstanceTypesType
 	AvailableResourceCreation AvailableResourceCreationType
 	AvailableDiskCategories   AvailableDiskCategoriesType
+	AvailableVolumeCategories AvailableVolumeCategoriesType
 }
 
 type DescribeZonesResponse struct {

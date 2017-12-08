@@ -81,6 +81,15 @@ type VpcSetType struct {
 	Description  string
 	IsDefault    bool
 	CreationTime util.ISO6801Time
+	//UserCidrs struct {
+	//	UserCidr []string
+	//}
+	//NatGatewayIds struct {
+	//	NatGatewayIds []string
+	//}
+	//RouterTableIds struct {
+	//	RouterTableIds []string
+	//}
 }
 
 type DescribeVpcsResponse struct {
