@@ -546,6 +546,7 @@ type CreateInstanceArgs struct {
 	ClientToken             string
 	InstanceChargeType      common.InstanceChargeType
 	Period                  int
+	PeriodUnit              string
 	UserData                string
 	AutoRenew               bool
 	AutoRenewPeriod         int
